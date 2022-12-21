@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Genel">
+        <menu>
+            <item
+                android:id="@+id/listes"
+                android:title="Listelerim">
+            </item>
+            <item
+                android:id="@+id/aliments"
+                android:title="Yemeklerim">
+            </item>
+            <item
+                android:id="@+id/saved_listes"
+                android:title="Kayıtlı Listelerim">
+            </item>
+        </menu>
+    </item>
+
+    <item android:title="Takip et">
+        <menu>
+            <item
+                android:id="@+id/conso"
+                android:title="Tüketimlerim">
+            </item>
+            <item
+                android:id="@+id/favorite"
+                android:title="Favori yemeklerim">
+            </item>
+        </menu>
+    </item>
+
+    <item android:title="Daha fazla bilgi">
+        <menu>
+            <item
+                android:id="@+id/param"
+                android:title="Parametreler">
+            </item>
+            <item
+                android:id="@+id/about"
+                android:title="Hakkında">
+            </item>
+        </menu>
+    </item>
+
+</menu>

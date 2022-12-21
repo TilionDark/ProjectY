@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/content_item_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/content_item_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            app:srcCompat="@drawable/ic_baseline_add_24" />
+
+        <TextView
+            android:id="@+id/content_item_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/content_item_et1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:text="1"
+            android:maxLength="3"
+            android:textAlignment="center"
+            android:inputType="number" />
+
+        <ImageButton
+            android:id="@+id/content_item_ib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    </LinearLayout>
+
+</LinearLayout>
